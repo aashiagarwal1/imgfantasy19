@@ -1,0 +1,50 @@
+.hero_section {
+  padding: 200px 0 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: unset !important;
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.hero_section .hero_center_img {
+  position: relative;
+  z-index: 9;
+  max-width: 300px;
+  -webkit-filter: drop-shadow(2px 2px 6px #8d7979);
+          filter: drop-shadow(2px 2px 6px #8d7979);
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+          animation: swinging 3.5s ease-in-out forwards infinite;
+}
+
+.hero_section .hero_content h1 {
+  color: $primary1;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 68px;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 3px black;
+}
+
+.hero_section .hero_content h1 span {
+  color: $primary2;
+}
+
+.hero_section .hero_content p {
+  color: #474748;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 30px;
+  max-width: 800px;
+}
+
+.hero_section .hero_content > span {
+  color: $primary2;
+  font-weight: 600;
+  font-size: 17px;
+  font-style: italic;
+}
